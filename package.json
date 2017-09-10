@@ -1,0 +1,9 @@
+{
+  "name": "prime-numbers-of-e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "decimal.js": "^7.2.4"
+  }
+}
