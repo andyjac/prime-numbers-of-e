@@ -2,6 +2,8 @@ var webpack = require('webpack');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var paths = require('./webpack_config/paths');
 
+const NODE_ENV = process.env.NODE_ENV;
+
 module.exports = {
   entry: `${paths.SRC}/app.jsx`,
   output: {
@@ -28,7 +30,7 @@ module.exports = {
     'react-dom': 'ReactDOM'
   },
   devtool: 'source-map',
-  watch: true,
+  watch: NODE_ENV === 'production' ? false : true,
   devServer: {
     contentBase: paths.DIST,
     filename: 'bundle.js',
