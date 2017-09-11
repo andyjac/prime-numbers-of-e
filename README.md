@@ -12,7 +12,7 @@ In order to run the application locally, you will need the following
 installed:
 
 - [node.js](https://nodejs.org/en/download/)
-- npm (bundled with Node.js installs)
+- npm (bundled with node.js)
 - [yarn](https://yarnpkg.com/lang/en/docs/install/) (optional)
 
 ### Starting the App
