@@ -4,6 +4,8 @@ This is a browser tool for finding the __Xth__, __Y__ digit prime
 number in the expansion of
 [Euler's Number](https://en.wikipedia.org/wiki/E_(mathematical_constant)).
 
+Check out a live version of the site [here](https://prime-numbers-of-e.herokuapp.com/).
+
 # Development
 
 ### Dependencies
