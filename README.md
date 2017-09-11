@@ -8,7 +8,7 @@ Check out a live version of the site [here](https://prime-numbers-of-e.herokuapp
 
 # Development
 
-### Dependencies
+### Dependencies:
 
 In order to run the application locally, you will need the following
 installed:
@@ -17,7 +17,7 @@ installed:
 - npm (bundled with node.js)
 - [yarn](https://yarnpkg.com/lang/en/docs/install/) (optional)
 
-### Starting the App
+### Starting the App:
 
 First install the app dependencies with either:
 
