@@ -1,10 +1,10 @@
-## Purpose
+# Purpose
 
 This is a browser tool for finding the __Xth__, __Y__ digit prime
 number in the expansion of
-[Euler's Number](https://en.wikipedia.org/wiki/E_(mathematical_constant).
+[Euler's Number](https://en.wikipedia.org/wiki/E_(mathematical_constant)).
 
-## Requirements
+# Requirements
 
 In order to run application locally, you will need the following
 installed:
@@ -13,7 +13,7 @@ installed:
 - npm (bundled with Node.js installs)
 - [yarn](https://yarnpkg.com/lang/en/docs/install/) (optional)
 
-## Running the App
+# Running the App
 
 First install the app dependencies with either:
 
@@ -33,6 +33,4 @@ project root:
 $ npm start
 ```
 
-Then open your browser up to `http://localhost:8080` to view the app.
-
-That's it!
+Then open your browser up to `http://localhost:8080` to view the app. That's it!
