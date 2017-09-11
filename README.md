@@ -34,7 +34,7 @@ After everything has been installed simply run the following from the
 project root:
 
 ```sh
-$ npm start
+$ npm run dev
 ```
 
 Then open your browser up to `http://localhost:8080` to view the app. That's it!
