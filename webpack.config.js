@@ -39,6 +39,10 @@ module.exports = {
       {
         from: `${paths.SRC}/index.html`,
         to: `${paths.DIST}/index.html`
+      },
+      {
+        from: `${paths.SRC}/styles.css`,
+        to: `${paths.DIST}/styles.css`
       }
     ])
   ]
