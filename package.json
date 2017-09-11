@@ -4,12 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --progress --colors",
-    "prestart": "npm run clean",
+    "start": "node app.js",
+    "prestart": "npm run clean && ./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack-dev-server --progress --colors",
+    "predev": "npm run clean",
     "clean": "rm -rf ./dist"
   },
   "dependencies": {
     "decimal.js": "^7.2.4",
+    "express": "^4.15.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
