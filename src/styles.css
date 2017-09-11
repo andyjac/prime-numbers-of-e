@@ -1,0 +1,62 @@
+html, body, #app {
+  height: auto;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #949388;
+  text-align: left;
+  padding: 5em;
+}
+
+h1, h2, h3, h4, h5, h6, p, input, button, select {
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #F9906E;
+}
+
+a {
+  color: #57D3B8;
+}
+
+#app-container {
+  background-color: #FFFEFF;
+  padding: 1em;
+  -moz-box-shadow: 10px 10px 10px 0 black;
+  -webkit-box-shadow: 10px 10px 10px 0 black;
+  box-shadow: 10px 10px 10px 0 black;
+}
+
+.content {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.result {
+  color: black;
+}
+
+button {
+  background-color: #F9906E;
+  color: #FFFEFF;
+  border: none;
+  height: 2.5em;
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+.warning {
+  color: #C5B52F;
+}
+
+button:hover {
+  background-color: #E07755;
+}
+
+#prime-calculator input {
+  margin-right: 1em;
+}
