@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "start": "node app.js",
-    "prestart": "npm run clean && ./node_modules/.bin/webpack",
+    "prestart": "npm run clean && npm run build",
     "dev": "./node_modules/.bin/webpack-dev-server --progress --colors",
-    "predev": "npm run clean",
-    "clean": "rm -rf ./dist"
+    "clean": "rm -rf ./dist",
+    "build": "./node_modules/.bin/webpack"
   },
   "dependencies": {
     "decimal.js": "^7.2.4",
